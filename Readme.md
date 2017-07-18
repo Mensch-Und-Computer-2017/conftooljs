@@ -34,10 +34,10 @@ conftool.downloadSubmissions(options).then(function(result) {
 
 `downloadSubmission` returns a Promise and expects a parameter object (`options`) including two properties:
 
-| Property 				| Values 												| Description						|
-|-----------------------|-------------------------------------------------------|-----------------------------------|
-| form_export_format 	| String: xml, xml_short, csv_comma, csv_semicolon, xls | Export format 					|
-| extended 				| Array of Strings										| Additional api options (see below)|
+| Property 				| Values 												| Description							|
+|-----------------------|-------------------------------------------------------|---------------------------------------|
+| form_export_format 	| String: xml, xml_short, csv_comma, csv_semicolon, xls | Export format 						|
+| extended 				| Array of Strings										| Additional api options (see below)	|
 
 
 ## ConfTool REST API
