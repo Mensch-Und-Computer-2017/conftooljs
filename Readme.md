@@ -23,13 +23,15 @@ var conftool = new ConfTool.Client({
       apiKey: API_KEY,
       baseUrl: API_URL
 	});
+``` 
 
 **Download submission data**
 
-``` 
+```
 conftool.downloadSubmissions(options).then(function(result) {
     // the api response is stored in results
   });
+
 ``` 
 
 `downloadSubmission` returns a Promise and expects a parameter object (`options`) including two properties:
