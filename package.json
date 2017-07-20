@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "http-status-codes": "^1.1.6",
+    "js2xmlparser": "^3.0.0",
     "request": "^2.81.0",
     "sha256": "^0.2.0"
   }
