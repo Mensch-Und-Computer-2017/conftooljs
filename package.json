@@ -9,9 +9,10 @@
   "author": "Alexander Bazo <alexanderbazo@googlemail.com>",
   "license": "MIT",
   "dependencies": {
+    "easyxml": "^2.0.1",
     "http-status-codes": "^1.1.6",
-    "js2xmlparser": "^3.0.0",
     "request": "^2.81.0",
-    "sha256": "^0.2.0"
+    "sha256": "^0.2.0",
+    "xml2js": "^0.4.17"
   }
 }
